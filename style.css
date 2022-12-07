@@ -3,6 +3,11 @@
 }
 
 .discord-title{
-    text-align: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.nav-main{
+    
 }
 
