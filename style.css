@@ -3,6 +3,15 @@
 .text-white {
     color: white;
 }
+.text-grey{
+    color: #566b8d;
+}
+.display-flex{
+    display: flex;
+}
+.t-a-c{
+    text-align: center;
+}
 /* 
 css */
 
