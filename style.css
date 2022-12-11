@@ -12,6 +12,16 @@
 .t-a-c{
     text-align: center;
 }
+.t-a-l {
+    text-align: left;
+}
+.j-c-c{
+    justify-content: center;
+}
+.mg-l-r-a{
+    margin-left: auto;
+    margin-right: auto;
+}
 /* 
 css */
 
@@ -24,8 +34,19 @@ css */
     margin-top: 5px;
 }
 
+
 .nav-main{
     
 }
 
+.why-openlab{
+    margin-top: 50px;
+}
 
+.why-openlab-text{
+    margin-top: 10px;
+}
+
+.card1{
+    margin-top: 100px;
+}
