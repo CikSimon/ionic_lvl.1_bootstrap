@@ -25,6 +25,10 @@
 /* 
 css */
 
+.nav-main div{
+    margin-right: 20px;
+}
+
 .btn-gray{
     background-color: rgba(211, 207, 207, 0.76);
 }
@@ -49,4 +53,50 @@ css */
 }
 .vision-box{
     margin-top: 100px;
+}
+
+.box1{
+    width: 220px;
+    height: 190px;
+    background-color: #5b95d757;
+    border-radius: 5%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.box2 {
+    width: 220px;
+    height: 190px;
+    background-color: #5cc19a6c;
+    border-radius: 5%;
+}       
+
+.box3 {
+    width: 220px;
+    height: 190px;
+    background-color: #dbca6875;
+    border-radius: 5%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.box4 {
+    width: 220px;
+    height: 190px;
+    background-color: #b95e7365;
+    border-radius: 5%;
+}
+
+
+
+.can-study{
+    margin-top: 100px;
+}
+
+.card-title-can-study{
+    font-size: 20px;
+}
+
+.d-flex{
+    display: flex;
 }
