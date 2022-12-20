@@ -95,9 +95,6 @@ css */
 }
 
 
-h4{
-    margin-top: 100px;
-}
 
 .hibridlab{
     margin-left: 500px;
@@ -110,4 +107,12 @@ h4{
 .column-two-schools{
     margin-top: 100px;
     margin-bottom: 50px;
+}
+
+.we-are-openlab{
+    margin-top: 50px;
+}
+
+h2{
+    margin-top: 100px;
 }
