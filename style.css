@@ -19,6 +19,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.m-t-100{
+    margin-top: 100px;
+}
 /* 
 css */
 
@@ -47,9 +51,6 @@ css */
 .card1{
     margin-top: 100px;
     
-}
-.vision-box{
-    margin-top: 100px;
 }
 
 .box1{
@@ -86,9 +87,7 @@ css */
 
 
 
-.can-study{
-    margin-top: 100px;
-}
+
 
 .card-title-can-study{
     font-size: 20px;
@@ -110,9 +109,6 @@ css */
 }
 
 .we-are-openlab{
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
-h2{
-    margin-top: 100px;
-}
