@@ -37,6 +37,20 @@ css */
     margin-top: 5px;
 }
 
+.nav-container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.h1-container{
+    background-color: #3597ffe0;
+    color: white;
+}
+
+.h1-col{
+    margin-left: 100px;
+    margin-top: 20px;
+}
 
 .why-openlab{
     margin-top: 50px;

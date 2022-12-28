@@ -25,63 +25,67 @@
         </header>
     </section>
     <section id="nav">
-        <nav>
-            <div class="container-lg d-flex">
-                <a href="#"><img src="./assets/openlab-logo.jpg" alt=""></a>
-                <div class="d-flex nav-main mg-l-r-a">  
-                    <div>
-                        Úvod
-                    </div>
-                    <div class="dropdown">
-                        <button type="button" class="btn dropdown-toggle dropdowns" data-bs-toggle="dropdown">OpenLab</button>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a class="dropdown-item" href="#">HybridLab</a>
-                                <a class="dropdown-item" href="#">GamesLab</a>
-                                <a class="dropdown-item" href="#">AppsLab</a>
+        <nav class="nav ">
+            <div class="container nav-container">
+                <div class="row">
+                    <div class="d-flex">  
+                        <div>
+                            <img src="./assets/openlab-logo.jpg" alt="">
+                        </div>
+                        <ul class="nav d-flex mg-l-r-a">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Úvod</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">OpenLab</a>
+                                <div class="dropdown-menu">
+                                    <div class="dropdown-item">
+                                        Hybrid
+                                    </div>
+                                    <div class="dropdown-item">
+                                        Games
+                                    </div>
+                                    <div class="dropdown-item">
+                                        Apps
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pre učiteľov</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Partneri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Moderná škola</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Časté otázky</a>
                             </li>
                         </ul>
-                    </div>
-                    <div>
-                        Pre Učiteľov
-                    </div>
-                    <div>
-                        Partneri
-                    </div>
-                    <div>
-                        Moderná škola
-                    </div>
-                    <div>
-                        Časté otázky
+                        <button class="btn btn-primary">
+                            Pridajte sa k nám
+                        </button>
                     </div>
                 </div>
-                
-                <div>
-                    <a class="btn btn-primary" href="https://openlab.sk/openlaby/">Pridajte sa k nám</a>
-                </div>
-                    
             </div>
-        
         </nav>
     </section>
-    <section id="main-page bg-primary">
-        <div class="container-fluid bg-primary">
-            <div class="container">   
-                <div class="row d-flex">
-                    <div class="col-sm-5">
-                        <h1 class="text-white">
-                            Inštitút stredoškolského odborného vzdelávania
-                            <div class="fw-bold">zameraný na IT & AI</div>
-                        </h1>
-                        <div class="text-white">
-                            Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania
-                        </div>
-                    </div>
-                    <div>
-                        <img class="col-sm-9" src="./assets/main-home.png" alt="">
-                    </div>
-                    
+    <section id="main-page">
+        <div class="container-fluid h1-container">
+            <div class="row display-flex">
+                <div class="col-sm-4 h1-col">
+                    <h1>
+                        Inštitút stredoškolského odborného vzdelávania
+                        <span class="fw-bold">zameraný na IT & AI</span>
+                    </h1>
+                    <p>
+                        Realizujeme odborné vzdelávanie zamerané na IT pre štátne školy ako nový štandard formálneho vzdelávania
+                    </p>
                 </div>
+                
+                <img class="col-sm-5" src="./assets/main-home.png" alt="">
+                
             </div>
         </div>
     </section>
