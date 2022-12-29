@@ -65,10 +65,22 @@ css */
     
 }
 
+.box-numbers{
+    font-size: 300%;
+    text-align: right;
+    
+}
+
+.box-numbers p{
+    font-size: 50%;
+}
+
+
 .box1{
     width: 220px;
     height: 190px;
-    background-color: #5b95d757;
+    color: #5b94d7;
+    background-color: rgba(221, 236, 251, 0.4);
     border-radius: 5%;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -77,14 +89,16 @@ css */
 .box2 {
     width: 220px;
     height: 190px;
-    background-color: #5cc19a6c;
+    background-color: rgba(156, 238, 204, 0.4);
+    color: #5cc19a;
     border-radius: 5%;
 }       
 
 .box3 {
     width: 220px;
     height: 190px;
-    background-color: #dbca6875;
+    background-color: rgba(238, 226, 156, 0.4);
+    color: #dbca68;
     border-radius: 5%;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -93,7 +107,8 @@ css */
 .box4 {
     width: 220px;
     height: 190px;
-    background-color: #b95e7365;
+    background-color: rgba(238, 156, 156, 0.4);
+    color: #b95e73;
     border-radius: 5%;
 }
 
