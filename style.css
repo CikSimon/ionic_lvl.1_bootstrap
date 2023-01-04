@@ -29,17 +29,30 @@ css */
 
 
 .btn-gray{
-    background-color: rgba(211, 207, 207, 0.76);
+    background-color: rgba(211, 207, 207, 0.438);
+}
+
+.d-t-1{
+    margin-left: 250px;
+}
+.d-t-2 {
+    margin-right: 200px;
+}
+.discord-btn{
+    margin-bottom: 5px;
 }
 
 .discord-title{
-    justify-content: center;
     margin-top: 5px;
 }
+
 
 .nav-container{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+.nav-text a{
+    color: black;
 }
 
 .h1-container{
@@ -65,15 +78,12 @@ css */
     
 }
 
+
 .box-numbers{
-    font-size: 300%;
     text-align: right;
-    
 }
 
-.box-numbers p{
-    font-size: 50%;
-}
+
 
 
 .box1{
@@ -84,6 +94,11 @@ css */
     border-radius: 5%;
     margin-right: 10px;
     margin-bottom: 10px;
+   
+}
+.box1 div{
+    
+    margin-right: 15px;
 }
 
 .box2 {
@@ -92,7 +107,11 @@ css */
     background-color: rgba(156, 238, 204, 0.4);
     color: #5cc19a;
     border-radius: 5%;
-}       
+}     
+.box2 div {
+    
+    margin-right: 15px;
+}
 
 .box3 {
     width: 220px;
@@ -103,6 +122,10 @@ css */
     margin-right: 10px;
     margin-bottom: 10px;
 }
+.box3 div {
+    
+    margin-right: 15px;
+}
 
 .box4 {
     width: 220px;
@@ -110,6 +133,10 @@ css */
     background-color: rgba(238, 156, 156, 0.4);
     color: #b95e73;
     border-radius: 5%;
+}
+.box4 div {
+    
+    margin-right: 15px;
 }
 
 
