@@ -79,6 +79,7 @@ css */
 }
 
 
+
 .box-numbers{
     text-align: right;
 }
@@ -91,7 +92,7 @@ css */
     height: 190px;
     color: #5b94d7;
     background-color: rgba(221, 236, 251, 0.4);
-    border-radius: 5%;
+    border-radius: 2%;
     margin-right: 10px;
     margin-bottom: 10px;
    
@@ -106,7 +107,7 @@ css */
     height: 190px;
     background-color: rgba(156, 238, 204, 0.4);
     color: #5cc19a;
-    border-radius: 5%;
+    border-radius: 2%;
 }     
 .box2 div {
     
@@ -118,7 +119,7 @@ css */
     height: 190px;
     background-color: rgba(238, 226, 156, 0.4);
     color: #dbca68;
-    border-radius: 5%;
+    border-radius: 2%;
     margin-right: 10px;
     margin-bottom: 10px;
 }
@@ -132,7 +133,7 @@ css */
     height: 190px;
     background-color: rgba(238, 156, 156, 0.4);
     color: #b95e73;
-    border-radius: 5%;
+    border-radius: 2%;
 }
 .box4 div {
     
@@ -162,8 +163,22 @@ css */
     margin-bottom: 50px;
 }
 
+.schools-text{
+    font-size: 22px;
+    margin-top: 10px;
+}
+.schools-link{
+    text-decoration: none;
+    margin: 50px;
+    font-size: 20px;
+}
+
 .we-are-openlab{
     margin-top: 80px;
+}
+.help-text{
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .behind-opnelab div{
