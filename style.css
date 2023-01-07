@@ -32,20 +32,11 @@ css */
     background-color: rgba(211, 207, 207, 0.438);
 }
 
-.d-t-1{
-    margin-left: 250px;
-}
-.d-t-2 {
-    margin-right: 200px;
-}
-.discord-btn{
-    margin-bottom: 5px;
-}
 
-.discord-title{
-    margin-top: 5px;
+.discord-header-button {
+    font-size: 12px;
+    padding: 6px 10px;
 }
-
 
 .nav-container{
     margin-top: 10px;

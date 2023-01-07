@@ -1,3 +1,18 @@
+<!-- Pokracovanie v openlab.sk stranke
+1. pridaj responzivitu pre svoju stranku
+2. pridaj na stranku bootstrap iconky.
+3. sprav tretiu podstranku kde si vyskusaj veci co si zatial nepouzil a podla zadania by si ich mal ovladat napr alerty
+frameworku. -->
+
+<!-- Poznamky - co sa mam doucit:
+d-xl-block
+d-none 
+-->
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,21 +26,17 @@
 </head>
 <body>
     <section id="discord-panel">
-        <header>
-            <div class="container discord-title border-bottom">
-                <div class="row t-a-c">
-                    <div class="col d-t-1">
-                        Ak máš záujem študovať spolu s nami, sme tu pre teba…
-                    </div>
-                    <div class="col d-t-2">
-                        <a class="rounded-pill btn btn-gray discord-btn"  href="https://discord.com/invite/Y6xrdTvjFn">OPENLAB COMMUNITY <img src="./assets/discord-main-logo.png" alt=""></a>
-                    </div>
-                </div>
+        <header class="d-none d-xl-block">
+            <div class="container d-flex justify-content-center align-items-center border-bottom">
+                <span class="lh-l me-5">
+                    Ak máš záujem študovať spolu s nami, sme tu pre teba…
+                </span>
+                <a target="_blank" class="rounded-pill btn btn-gray discord-header-button"  href="https://discord.com/invite/Y6xrdTvjFn">OPENLAB COMMUNITY <img src="./assets/discord-main-logo.png" alt=""></a>
             </div>
         </header>
     </section>
     <section id="nav">
-        <nav class="nav ">
+        <nav class="navbar ">
             <div class="container nav-container">
                 <div class="row">
                     <div class="d-flex">  
@@ -108,7 +119,7 @@
                 </div>
             </div>
                 <div class="conatainer">
-                    <div id="cards" class="row j-c-c">
+                    <div id="cards" class="row j-c-c jus">
                         <div class="card border-0 col-sm-3">
                             <img class="card-img-top card1 t-a-l" style="max-width: 50px;" src="./assets/why-openlab-imgs/select.svg" alt="">
                             <div class="card-body t-a-l">
