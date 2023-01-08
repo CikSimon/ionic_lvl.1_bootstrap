@@ -42,6 +42,11 @@ css */
     margin-top: 10px;
     margin-bottom: 10px;
 }
+.toggler-icon{
+    background-image: url(./assets/navbar-toggler.mhtml);
+    width: 20px;
+    height: 20px;
+}
 .nav-text a{
     color: black;
 }
