@@ -87,6 +87,7 @@ css */
 
 .box-numbers{
     text-align: right;
+    margin-left: px;
 }
 
 
@@ -95,18 +96,16 @@ css */
 .box1{
     width: 220px;
     height: 190px;
-    color: #5b94d7;
-    background-color: rgba(221, 236, 251, 0.4);
     border-radius: 2%;
     margin-right: 10px;
     margin-bottom: 10px;
+    color: #5b94d7;
+    background-color: rgba(221, 236, 251, 0.4);
    
 }
-.box1 div{
-    
+.box1  div{
     margin-right: 15px;
 }
-
 .box2 {
     width: 220px;
     height: 190px;
@@ -168,7 +167,6 @@ css */
 }
 .schools-link{
     text-decoration: none;
-    margin: 50px;
     font-size: 20px;
 }
 
