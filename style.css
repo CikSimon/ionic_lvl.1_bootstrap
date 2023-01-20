@@ -26,7 +26,15 @@
 /* 
 css */
 
-
+.navbar-nav * {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1a232f !important;
+    text-decoration: none;
+}
+.nav-item{
+    margin-left: 20px;
+}
 
 .btn-gray{
     background-color: rgba(211, 207, 207, 0.438);
@@ -180,9 +188,6 @@ css */
 .support-column img{
     margin-left: 80px;
 }
-.newsletter{
-    background-color: #d7eaff;
-}
-.newsletter-row{
-    padding-top: 20px;
+.newsletter {
+    background-color: #d7eaff !important;
 }
